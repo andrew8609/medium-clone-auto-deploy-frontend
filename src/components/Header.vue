@@ -14,7 +14,6 @@
               @keydown.enter="onSearchTermEntered"
             ></v-text-field>
         </li>
-
         <li class="nav-item" data-app>
           <v-menu offset-y>
             <template v-slot:activator="{ on }">
