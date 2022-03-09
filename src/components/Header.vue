@@ -34,8 +34,7 @@
               <v-list-item @click.prevent="logout">
                 <v-list-item-title>Loguot</v-list-item-title>
               </v-list-item>
-            </v-list>
-              
+            </v-list>       
           </v-menu>
         </li>
         <li class="nav-item" v-if="currentUser.username">
