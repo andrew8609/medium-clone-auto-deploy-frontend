@@ -220,7 +220,6 @@ span {
                 <div class="slidein" v-if="open">
                     <h1>Comments</h1>                        
                     <CommentList :comments="comments"/>
-                    
                 </div>
             </transition>
             </v-container>
