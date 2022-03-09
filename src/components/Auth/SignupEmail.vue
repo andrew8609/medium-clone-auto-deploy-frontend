@@ -4,7 +4,6 @@ button {
     margin:0 auto;
     display:block;
 }
-
 </style>
 <template>
   <div class="auth-page">
