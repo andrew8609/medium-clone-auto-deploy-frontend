@@ -22,3 +22,8 @@ jobs:
           REMOTE_HOST: ${ { secrets.HOST_DNS }}
           REMOTE_USER: ${ { secrets.USERNAME }}
           TARGET: ${ { secrets.TARGET_DIR }}
+        run: 
+          echo ${{secrets.EC2_SSH_KEY}}
+          echo ${{secrets.HOST_DNS}}
+          echo ${{secrets.USERNAME}}
+          echo ${{secrets.TARGET_DIR}}
