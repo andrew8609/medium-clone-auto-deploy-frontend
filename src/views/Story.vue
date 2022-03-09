@@ -205,7 +205,6 @@ span {
                             <v-divider
                                 horizontal
                             ></v-divider>
-                            
                             <h1 align="center">
                                 {{story.title}}
                             </h1>
