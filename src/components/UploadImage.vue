@@ -23,7 +23,6 @@
         <img class="preview my-3" :src="previewImage" alt="" />
       </div>
     </div>
-
     <v-alert v-if="message" border="left" color="blue-grey" dark>
       {{ message }}
     </v-alert>
