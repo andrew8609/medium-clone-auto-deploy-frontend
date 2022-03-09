@@ -10,7 +10,8 @@
       <router-link
         :to="{ name: 'user', params: { userId: story.User.id } }"
       >
-        <img :src="story.User.photo_url" />
+        <img v-if="story.User.photo_url != undefined" :src="story.User.photo_url" />
+        <img v-else src="https://www.seekpng.com/png/detail/73-730482_existing-user-default-avatar.png" />
       </router-link>
       <div class="info">
         <router-link
