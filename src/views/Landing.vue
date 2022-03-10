@@ -97,6 +97,7 @@ export default {
           };
         },
          ...mapGetters(["stories"]),
+         
     },
     mounted() {
       this.$store.dispatch(FETCH_STORIES, this.listConfig);
