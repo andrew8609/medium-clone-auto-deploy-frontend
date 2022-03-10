@@ -31,8 +31,7 @@
                         justify="center">
                         <div v-if="getImage(story.Story.content)" v-html="getImage(story.Story.content)">
                         </div>
-                        <img v-else src="https://www.seekpng.com/png/detail/73-730482_existing-user-default-avatar.png"/>
-                                
+                        <img v-else src="https://www.seekpng.com/png/detail/73-730482_existing-user-default-avatar.png"/>       
                     </v-col>
                 </v-row>
             </router-link>      
