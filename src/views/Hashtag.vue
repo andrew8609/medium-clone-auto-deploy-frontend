@@ -11,7 +11,6 @@
         font-size: 1rem;
         line-height: 1.3rem;
     };
-
 </style>
 <template>
     <v-container>
