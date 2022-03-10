@@ -87,6 +87,7 @@ export default {
     computed: {
         listConfig() {
           const type = "all";
+          
           const filters = {
             page: 0,
             size: 6
@@ -97,7 +98,7 @@ export default {
           };
         },
          ...mapGetters(["stories"]),
-         
+
     },
     mounted() {
       this.$store.dispatch(FETCH_STORIES, this.listConfig);
