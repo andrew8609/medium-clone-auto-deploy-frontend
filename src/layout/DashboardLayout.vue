@@ -5,7 +5,6 @@
           permanent
           app
         >
-            
             <br><br><br><br><br><br>
             <main>
                 <v-list>
