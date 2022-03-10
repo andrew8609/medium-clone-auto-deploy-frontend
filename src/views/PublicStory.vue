@@ -172,7 +172,6 @@ body{
                         </v-list>
                         </v-sheet>
                     </v-col>
-
                     <v-col>
                         <v-sheet
                         min-height="70vh"
