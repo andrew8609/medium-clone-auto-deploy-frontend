@@ -92,7 +92,6 @@ export default {
             size: 6
           };
           return {
-            
             type,
             filters
           };
