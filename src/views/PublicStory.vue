@@ -35,6 +35,7 @@ body{
     height: 46px;
 }
 
+
 .panel {
     box-shadow: 0 2px 0 rgba(0,0,0,0.075);
     border-radius: 0;
