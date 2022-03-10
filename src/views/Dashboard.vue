@@ -1,30 +1,30 @@
 <template>
-<div>
-    <v-container fluid>
-        <v-row class="pa-md-4 mx-lg-auto" style="margin-top:30px">
-                <h3>People you follow</h3>
-        </v-row>
-        <v-card v-if="followers.length!=0">
-            <span v-for="follower in followers" :key="follower.id">
-            <router-link
-                    :to="{ name: 'user', params: { userId: follower.id } }"
-                >
-                <v-avatar 
-                    color="orange"
-                    size="70"
-                    style="margin:7px" 
-                >                 
-                    <v-img  :src="follower.photo_url"/>    
-                </v-avatar>
-            </router-link>
-            </span>
-        </v-card>
-        <v-container v-else>
-            &nbsp;&nbsp; No following people yet
+    <div>
+        <v-container fluid>
+            <v-row class="pa-md-4 mx-lg-auto" style="margin-top:30px">
+                    <h3>People you follow</h3>
+            </v-row>
+            <v-card v-if="followers.length!=0">
+                <span v-for="follower in followers" :key="follower.id">
+                <router-link
+                        :to="{ name: 'user', params: { userId: follower.id } }"
+                    >
+                    <v-avatar 
+                        color="orange"
+                        size="70"
+                        style="margin:7px" 
+                    >                 
+                        <v-img  :src="follower.photo_url"/>    
+                    </v-avatar>
+                </router-link>
+                </span>
+            </v-card>
+            <v-container v-else>
+                &nbsp;&nbsp; No following people yet
+            </v-container>
+            <StoryList />
         </v-container>
-        <StoryList />
-    </v-container>
-</div>
+    </div>
 </template>
 
 <script>
