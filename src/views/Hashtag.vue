@@ -39,7 +39,6 @@
         </div>
     </v-container>
 </template>
-
 <script>
 
  import { mapGetters } from "vuex";
