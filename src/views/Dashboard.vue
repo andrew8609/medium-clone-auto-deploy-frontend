@@ -24,7 +24,6 @@
         </v-container>
         <StoryList />
     </v-container>
-    
 </div>
 </template>
 
