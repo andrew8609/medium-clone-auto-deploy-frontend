@@ -82,6 +82,7 @@
 
 <script>
 import { mapGetters } from "vuex";
+
 import {FETCH_STORIES} from "@/store/actions.type";
 export default {
     name: 'landing-page',
