@@ -58,8 +58,7 @@
                                         <v-col cols="12" md="9">
                                             <div>{{story.User.username}}</div>
                                             <div>{{story.created_at}}</div>
-                                        </v-col>
-                                        
+                                        </v-col>   
                                     </v-row>
                                     <router-link :to="viewStoryLink(story.id)" class="preview-link">
                                         <v-row class="pa-md-4 mx-lg-auto">
