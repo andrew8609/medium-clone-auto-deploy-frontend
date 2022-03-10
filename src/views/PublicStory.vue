@@ -30,7 +30,6 @@ body{
     margin-top:20px;
     background:#ebeef0;
 }
-
 .img-sm {
     width: 46px;
     height: 46px;
