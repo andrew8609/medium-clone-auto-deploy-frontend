@@ -2,7 +2,7 @@
     <v-app>
         <v-card color="grey lighten-4" flat tile>
             <v-toolbar >                 
-                <v-toolbar-title><div class="font-weight-medium">MMMedium</div></v-toolbar-title>     
+                <v-toolbar-title><div class="font-weight-medium">Medium</div></v-toolbar-title>     
                 <v-spacer></v-spacer>
                 <router-link :to="{path: 'signin'}" tag="div">
                     <v-btn class="ma-2" outlined color="#009688" rounded>
