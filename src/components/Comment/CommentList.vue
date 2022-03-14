@@ -38,7 +38,6 @@
       </v-treeview>
     </div>
 </template>
-
 <script>
 
 import CommentListItem from "@/components/Comment/CommentItem"
