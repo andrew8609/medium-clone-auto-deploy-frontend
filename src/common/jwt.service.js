@@ -24,5 +24,6 @@ export const saveRefreshToken = token => {
 export const destroyRefreshToken = () => {
   window.localStorage.removeItem(ID_REFRESH_TOKEN_KEY);
 };
+
 export default { getAccessToken, saveAccessToken, destroyAccessToken,
                  getRefreshToken, saveRefreshToken, destroyRefreshToken  };
