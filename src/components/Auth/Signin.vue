@@ -56,7 +56,7 @@ export default {
       username: "",
       email: "",
       password: "",
-      oauth_url: `${BACKEND_DOMAIN}/google?requestType=signin`
+      oauth_url: `${BACKEND_DOMAIN}/api/google?requestType=signin`
     };
   },
   computed: {
