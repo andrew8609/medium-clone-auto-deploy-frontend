@@ -113,16 +113,26 @@ export default {
   },
   methods: {
     onSubmit() {
-      this.$store.dispatch(SIGNUP_WITH_EMAIL, {
-          email: this.email
-        })
-        .then(() => {
-          this.dialog = true;
-          })
+      this.recaptcha();
     },
     onConfirmSentEmail() {
       this.dialog = false;
       this.$router.push({name: "landing" });
+    },
+    async recaptcha() {
+      // (optional) Wait until recaptcha has been loaded.
+      await this.$recaptchaLoaded()
+
+        // Execute reCAPTCHA with action "login".
+        const token = await this.$recaptcha(SIGNUP_WITH_EMAIL)
+        await this.$store.dispatch(SIGNUP_WITH_EMAIL, {
+          email: this.email,
+          "g_recaptcha_response" : token,
+        })
+        .then(() => {
+          this.dialog = true;
+          })
+      // Do stuff with the received token.
     }
   }
 };
