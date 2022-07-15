@@ -1,4 +1,4 @@
-# vue2-medium
+# Vuejs Medium.com clone project. CI/CD implemented using Github action
 
 ## Project setup
 ```
