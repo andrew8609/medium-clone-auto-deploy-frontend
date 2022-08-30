@@ -1,4 +1,4 @@
-# Vuejs Medium.com clone project. CI/CD implemented using Github action
+# Vuejs Medium.com clone project. CI/CD implemented using Github action.
 
 ## Project setup
 ```
