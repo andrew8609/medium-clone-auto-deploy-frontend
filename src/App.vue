@@ -16,6 +16,7 @@
 import Vue from 'vue'
 import { VueReCaptcha } from 'vue-recaptcha-v3'
 Vue.use(VueReCaptcha, { siteKey: '6LdWAwgfAAAAAN89nESjC4NIZCXK_cFxVO0Ac5gw' })
+// here site key should be replaced by yours.
 
 export default {
   name: "App",
